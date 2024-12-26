@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#container{
+    background-color: black;
+    color: azure;
+    padding: 10px 5px;
+    margin: 10px 5px;
+    align-items: center;
+    text-decoration: none;
+}
+ul {
+    display: grid;
+    grid-area: "li li li li";
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+ul li {
+    list-style: none;
+}
+@media(max-width: 768px){
+    ul{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    #container{
+        align-items: center;
+        background-color:grey;
+    }
+    li{
+        margin: 20px;
+
+    }
+}

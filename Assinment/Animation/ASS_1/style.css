@@ -1,0 +1,14 @@
+*:root{
+    --primary:  #00b7ff;
+    --secondary: #6c757d;
+}
+*{
+    padding: 0;
+    margin: 0 auto;
+}
+#primaryBtn {
+    background-color: var(--primary);   
+}
+#secondaryBtn{
+    background-color: var(--secondary);
+}

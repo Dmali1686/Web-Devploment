@@ -1,0 +1,20 @@
+.text-sec{
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text-sec__para{
+    margin: 10px 0;
+    line-height: 1.5;
+}
+.text-sec__para--pri{
+    font-size: 1.2em;
+    color: #333;
+}
+.text-sec__para--seco{
+    font-style:  italic;
+    color: #559;
+}
+.text-sec__para--tri{
+    background-color: yellow;
+    padding: 50px;
+}

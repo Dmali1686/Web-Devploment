@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 40%;
+}
+.dog img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}

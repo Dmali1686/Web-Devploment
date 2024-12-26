@@ -1,0 +1,11 @@
+
+h1::before {
+    content: "Pseudo - ";
+    font-size: 20px;
+  }
+  
+ h1::after {
+    content: " - Selector";
+    font-size: 20px;
+  }
+  

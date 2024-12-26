@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Div</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        .container {
+            display: flex; /* Enables Flexbox */
+            justify-content: center; /* Centers content horizontally */
+            align-items: center; 
+            height: 100vh; 
+        }
+
+
+        .box {
+            width: 200px; /* Width of the green box */
+            height: 200px; /* Height of the green box */
+            background-color: limegreen; /* Green color of the box */
+            border: 2px solid navy; /* Optional: Border to visualize the box */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+    </div>
+</body>
+</html>
